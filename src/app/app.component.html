@@ -1,0 +1,15 @@
+<div>
+  <h3>Family Details</h3>
+<!-- Table Header -->  
+<tr>
+  <th>Array Index</th>
+  <th>Name</th>
+  <th>Age</th>
+</tr>
+<!-- *ngFor loop for the number of elements in array -->
+<tr  *ngFor="let user of Users; let i = index">
+  <td>{{i}}</td>
+  <td>{{user.name}}</td>
+  <td>{{user.Age}}</td>
+</tr>
+</div>
